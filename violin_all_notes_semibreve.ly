@@ -1,5 +1,5 @@
 \header {
-  title = "Violin Notes and Finger Positions (Semibreve)"
+  title = "Violin Notes and Finger Positions (Semibreve/Whole Note)"
   composer = "Rajesh Prashanth Anandavadivel"
 }
 
