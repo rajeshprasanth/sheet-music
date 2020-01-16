@@ -6,7 +6,7 @@
 {
 \key a \major
 
-a'1 \0 b' cis'' d''   e'' \0fis'' gis'' a''  a'' gis'' fis'' e'' \0  d'' cis'' b' a'\0 \bar "|."
+a'1 \downbow \0 b' \upbow cis'' d''   e'' \0fis'' gis'' a''  a'' gis'' fis'' e'' \0  d'' cis'' b' a'\0 \bar "|."
 
 }
 }
@@ -15,7 +15,7 @@ a'1 \0 b' cis'' d''   e'' \0fis'' gis'' a''  a'' gis'' fis'' e'' \0  d'' cis'' b
 {
 \key a \major
 
-a'1 \0 b' cis'' d''   e'' \4fis'' gis'' a''  a'' gis'' fis'' e'' \4  d'' cis'' b' a'\0 \bar "|."
+a'1 \downbow \0 b' \upbow cis'' d''   e'' \4fis'' gis'' a''  a'' gis'' fis'' e'' \4  d'' cis'' b' a'\0 \bar "|."
 
 }
 }
@@ -24,7 +24,7 @@ a'1 \0 b' cis'' d''   e'' \4fis'' gis'' a''  a'' gis'' fis'' e'' \4  d'' cis'' b
 {
 \key a \major
 
-a'2 \0 b' cis'' d''   e'' \0fis'' gis'' a''  a'' gis'' fis'' e'' \0  d'' cis'' b' a'\0 \bar "|."
+a'2 \downbow \0 b' \upbow  cis'' d''   e'' \0fis'' gis'' a''  a'' gis'' fis'' e'' \0  d'' cis'' b' a'\0 \bar "|."
 
 }
 }
@@ -33,7 +33,7 @@ a'2 \0 b' cis'' d''   e'' \0fis'' gis'' a''  a'' gis'' fis'' e'' \0  d'' cis'' b
 {
 \key a \major
 
-a'2 \0 b' cis'' d''   e'' \4fis'' gis'' a''  a'' gis'' fis'' e'' \4  d'' cis'' b' a'\0 \bar "|."
+a'2 \downbow \0 b' \upbow  cis'' d''   e'' \4fis'' gis'' a''  a'' gis'' fis'' e'' \4  d'' cis'' b' a'\0 \bar "|."
 
 }
 }
@@ -43,7 +43,7 @@ a'2 \0 b' cis'' d''   e'' \4fis'' gis'' a''  a'' gis'' fis'' e'' \4  d'' cis'' b
 {
 \key a \major
 
-a'4 \0 b' cis'' d''   e'' \0fis'' gis'' a''  a'' gis'' fis'' e'' \0  d'' cis'' b' a'\0 \bar "|."
+a'4 \downbow \0 b' \upbow  cis'' d''   e'' \0fis'' gis'' a''  a'' gis'' fis'' e'' \0  d'' cis'' b' a'\0 \bar "|."
 
 }
 }
@@ -52,7 +52,7 @@ a'4 \0 b' cis'' d''   e'' \0fis'' gis'' a''  a'' gis'' fis'' e'' \0  d'' cis'' b
 {
 \key a \major
 
-a'4 \0 b' cis'' d''   e'' \4fis'' gis'' a''  a'' gis'' fis'' e'' \4  d'' cis'' b' a'\0 \bar "|."
+a'4 \downbow \0 b' \upbow  cis'' d''   e'' \4fis'' gis'' a''  a'' gis'' fis'' e'' \4  d'' cis'' b' a'\0 \bar "|."
 
 }
 }
@@ -61,7 +61,7 @@ a'4 \0 b' cis'' d''   e'' \4fis'' gis'' a''  a'' gis'' fis'' e'' \4  d'' cis'' b
 {
 \key a \major
 
-a'8 \0 b' cis'' d''   e'' \0fis'' gis'' a''  a'' gis'' fis'' e'' \0  d'' cis'' b' a'\0 \bar "|."
+a'8 \downbow \0 b' \upbow  cis'' d''   e'' \0fis'' gis'' a''  a'' gis'' fis'' e'' \0  d'' cis'' b' a'\0 \bar "|."
 
 }
 }
@@ -70,7 +70,7 @@ a'8 \0 b' cis'' d''   e'' \0fis'' gis'' a''  a'' gis'' fis'' e'' \0  d'' cis'' b
 {
 \key a \major
 
-a'8 \0 b' cis'' d''   e'' \4fis'' gis'' a''  a'' gis'' fis'' e'' \4  d'' cis'' b' a'\0 \bar "|."
+a'8 \downbow \0 b' \upbow  cis'' d''   e'' \4fis'' gis'' a''  a'' gis'' fis'' e'' \4  d'' cis'' b' a'\0 \bar "|."
 
 }
 }
@@ -79,7 +79,7 @@ a'8 \0 b' cis'' d''   e'' \4fis'' gis'' a''  a'' gis'' fis'' e'' \4  d'' cis'' b
 {
 \key a \major
 
-a'16 \0 b' cis'' d''   e'' \0fis'' gis'' a''  a'' gis'' fis'' e'' \0  d'' cis'' b' a'\0 \bar "|."
+a'16 \downbow \0 b' \upbow  cis'' d''   e'' \0fis'' gis'' a''  a'' gis'' fis'' e'' \0  d'' cis'' b' a'\0 \bar "|."
 
 }
 }
@@ -88,7 +88,7 @@ a'16 \0 b' cis'' d''   e'' \0fis'' gis'' a''  a'' gis'' fis'' e'' \0  d'' cis'' 
 {
 \key a \major
 
-a'16 \0 b' cis'' d''   e'' \4fis'' gis'' a''  a'' gis'' fis'' e'' \4  d'' cis'' b' a'\0 \bar "|."
+a'16 \downbow \0 b' \upbow  cis'' d''   e'' \4fis'' gis'' a''  a'' gis'' fis'' e'' \4  d'' cis'' b' a'\0 \bar "|."
 
 }
 }
