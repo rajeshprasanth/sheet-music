@@ -1,76 +1,110 @@
 \header {
-  title = "C Major Scale"
+  title = "G Major Scale"
 }
 
-\version "2.19.82"
+%\version "2.19.82"
 
 
 global = {
-    \key c \major
+    \key g \major
     \numericTimeSignature
     \time 4/4
 }
 
 vara = {
-    \key c \major
+    \key g \major
     \numericTimeSignature
     \time 3/4
 }
 
 varb = {
-    \key c \major
+    \key g \major
     \numericTimeSignature
     \time 2/4
 }
 
-\markup{"C Major scale"}
+\markup{"G Major scale (Lower Octave)"}
 \score {{
     \global
     \relative c' {
-       c d e f g a b c c b a g f e d c
+       g a b c d e fis g g fis e d c b a g
         \bar ":|."
     }
 }
 }
 
-\markup{"C Major Pentatonic scale"}
+\markup{"G Major Pentatonic scale (Lower Octave)"}
 \score {{
     \global
     \relative c' {
-       c d e g a c c a g e c
+       g a b d e g g e d b a g
         \bar ":|."
     }
 }
 }
 
-\markup{"C Major Arepeggio"}
+\markup{"G Major Arepeggio (Lower Octave)"}
 \score {{
     \global
     \relative c' {
-       c e g c c g e c
+       g b d g g d b g
         \bar ":|."
     }
 }
 }
 
-\markup{"C Major Broken Chords"}
+\markup{"G Major scale (Higher Octave)"}
+\score {{
+    \global
+    \relative c'' {
+       g a b c d e fis g g fis e d c b a g
+        \bar ":|."
+    }
+}
+}
+
+\markup{"G Major Pentatonic scale (Higher Octave)"}
+\score {{
+    \global
+    \relative c'' {
+       g a b d e g g e d b a g
+        \bar ":|."
+    }
+}
+}
+
+\markup{"G Major Arepeggio (Higher Octave)"}
+\score {{
+    \global
+    \relative c'' {
+       g b d g g d b g
+        \bar ":|."
+    }
+}
+}
+
+\markup{"G Major Broken Chords"}
 \score {{
     \vara
     \relative c' {
-       c e g 
-       e g c 
-       g c e
-       c e g
-       g e c
-       e c g
-       c g e
-       g e c
+       g b d
+       b d g
+       d g b
+       g b d
+       b d g
+       d g b
+       b g d
+       g d b
+       d b g
+       b g d
+       g d b
+       d b g
         \bar ":|."
     }
 }
 }
 
-\markup{"C Major Broken 3rd"}
+\markup{"G Major Broken 3rd"}
 \score {{
     \varb
      \relative c' {
@@ -78,33 +112,33 @@ varb = {
        a c
        b d
        c e
-       d f
+       d fis
        e g
-       f a
-       g a
+       fis a
+       g b
        a c
        b d
        c e
-       d f
+       d fis
        e g
-       f a
+       fis a
        g b
-       
-       b g
-       a f
-       g e
-       f d
-       e c
-       d b
-       c a
-       a g
-       a f
-       g e
-       f d
-       e c
-       d b
-       c a 
-       b g
+
+        b g       
+        a fis       
+        g e       
+        fis d       
+        e c       
+        d b       
+        c a       
+        b g       
+        a fis
+        g e       
+        fis d       
+        e c       
+        d b       
+        c a       
+        b g
 
        
 
@@ -113,36 +147,36 @@ varb = {
 }
 }
 
-\markup{"C Major sequence"}
+\markup{"G Major sequence"}
 \score {{
     \global
      \relative c' {
-        g8 a b c
+       g8 a b c
         a b c d
         b c d e
-        c d e f
-        d e f g
-        e f g a
-        f g a b
+        c d e fis
+        d e fis g
+        e fis g a
+        fis g a b
         g a b c
         a b c d
         b c d e
-        c d e f
-        d e f g
-        e f g a
-        f g a b
+        c d e fis
+        d e fis g
+        e fis g a
+        fis g a b
 
-        b a g f        
-        a g f e        
-        g f e d        
-        f e d c        
+        b a g fis        
+        a g fis e        
+        g fis e d        
+        fis e d c        
         e d c b        
         d c b a        
         c b a g        
-        b a g f        
-        a g f e        
-        g f e d        
-        f e d c        
+        b a g fis        
+        a g fis e        
+        g fis e d        
+        fis e d c        
         e d c b        
         d c b a        
         c b a g
@@ -165,19 +199,50 @@ varb = {
 }
 }
 
-\markup{"C Major Keys "}
+\markup{"G Major Keys "}
 \score {{
     \global
      \relative c' {
-       g4 a b c | d e f g | a g f e | d c b a  \bar "||" \break
-        a b c d | e f g a | b a g f | e d c b  \bar "||" \break
-        b c d e | f g a b | c b a g | f e d c  \bar "||" \break
-        c d e f | g a b c | d c b a | g f e d  \bar "||" \break
-        d e f g | a b c d | e d c b | a g f e  \bar "||" \break
-        e f g a | b c d e | f e d c | b a g f  \bar "||" \break
-        f g a b | c d e f | g f e d | c b a g  \bar "||" \break
-        g a b c | d e f g | a g f e | d c b a  \bar "||" \break
-        a b c d | e f g a | g a g f | e d c b  
+       g4 a b c | d e fis g | a g fis e | d c b a  \bar "||" \break
+        a b c d | e fis g a | b a g fis | e d c b  \bar "||" \break
+        b c d e | fis g a b | c b a g | fis e d c  \bar "||" \break
+        c d e fis | g a b c | d c b a | g fis e d  \bar "||" \break
+        d e fis g | a b c d | e d c b | a g fis e  \bar "||" \break
+        e fis g a | b c d e | fis e d c | b a g fis  \bar "||" \break
+        fis g a b | c d e fis | g fis e d | c b a g  \bar "||" \break
+        g a b c | d e fis g | a g fis e | d c b a  \bar "||" \break
+        a b c d | e fis g a | g a g fis | e d c b  
+        \bar ":|."
+    }
+}
+}
+
+
+\markup{"G Major scale (2 Octave)"}
+\score {{
+    \global
+    \relative c' {
+       g2 a4 b c d e fis g2 a4 b c d e fis g2 g2 fis4 e d c b a g2 fis4 e d c b a g2
+        \bar ":|."
+    }
+}
+}
+
+\markup{"G Major Pentatonic scale (2 Octave)"}
+\score {{
+    \global
+    \relative c' {
+       g2 a4 b d e g2 a4 b d e g2 g2 e4 d b a g2 e4 d b a g2
+        \bar ":|."
+    }
+}
+}
+
+\markup{"G Major Arepeggio (2 Octave)"}
+\score {{
+    \global
+    \relative c' {
+       g2 b4 d g2 b4 d g2 g2 d4 b g2 d4 b g2
         \bar ":|."
     }
 }
